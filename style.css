@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center; /* Vertically center items */
+    padding: 0 20px; /* Add some padding for spacing */
+    justify-content: space-evenly;
+}
+
+.logo {
+    background-image: url("image2.jpeg");
+    background-size: contain; /* Maintain aspect ratio */
+    background-repeat: no-repeat; /* Prevent repeating */
+    background-position: center; /* Center the logo */
+    height: 50px;
+    width: 100px;
+    
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid white;
+}
+
+/** 2 **/
+.add-first {
+color: #cccccc;
+font-size: 0.85rem;
+margin-left:15px;
+}
+
+.add-sec{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon{ 
+    display:flex;
+    align-items: center;
+}
+
+/** box3 **/
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width:620px;
+    height:40px;
+    border-radius: 5px;
+}
+
+.search-select{
+    background-color: f3f3f3;
+    width:50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;    
+}
+.search-input{
+    width:100%;
+    font-size: 1rem;
+    border: none;
+
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(230, 219, 13);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0F1111;
+}
+
+.flag{
+    display:flex;
+    align-items: center;
+}
+
+
+/** box4 **/
+span{
+    font-size: 0.7rem;
+}
+
+.nav-second { 
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+    
